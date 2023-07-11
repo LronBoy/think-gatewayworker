@@ -1,0 +1,25 @@
+{
+    "name": "lronboy/think-gatewayworker",
+    "description": "GatewayWorker extend for thinkphp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jeffry",
+            "email": "aiwrrc@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "topthink/framework": "^8.0",
+        "workerman/workerman": "^4.0.30",
+        "workerman/gateway-worker": "^3.0.8",
+        "ext-fileinfo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\gateway\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+
+}
